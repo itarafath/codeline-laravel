@@ -1,0 +1,16 @@
+@import "variables";
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "~vuejs-noty/dist/vuejs-noty.css";
+
+body {
+  overflow-y: scroll;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s ease;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
